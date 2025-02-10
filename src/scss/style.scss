@@ -1244,3 +1244,10 @@ input[type=number] {
   background-image: url("assets/images/pics/rvw-xtra-1.png");
   background-image: none;
 }
+input {
+
+  line-height: normal; // Ensures height remains stable
+  -webkit-appearance: none; // Disables default iOS styles
+  appearance: none;
+
+}
